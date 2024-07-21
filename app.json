@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "kaftaji-front",
-    "slug": "kaftaji-front",
+    "name": "kaftaji",
+    "slug": "kaftaji",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/images/1.jpg",
+    "scheme": "kaftaji",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/1.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,20 +17,27 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/1.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ncfoa181.kaftaji"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/1.jpg"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7160643e-b60e-4cee-b129-51e760bbaaf1"
+      }
     }
   }
 }
